@@ -1,0 +1,127 @@
+{
+    "education": [
+      {
+        "duration": "August 2022 – June 2024",
+        "institution": "Blekinge Tekniska Högskola, Sweden",
+        "qualification": "Higher Education Diploma",
+        "field": "Software Engineering with emphasis in Web Programming (120 hp)",
+        "courses": [
+          {"name": "Programming and Problem Solving with Python", "credits": "7.5 hp", "code": "DV1531"},
+          {"name": "Web Technology", "credits": "7.5 hp", "code": "PA1439"},
+          {"name": "Programming with JavaScript", "credits": "7.5 hp", "code": "DV1657"},
+          {"name": "Technical Web Design and Usability", "credits": "7.5 hp", "code": "PA1436"},
+          {"name": "Algorithms and Data Structures with Object-oriented Python", "credits": "7.5 hp", "code": "DV1660"},
+          {"name": "Database Technologies for the Web", "credits": "7.5 hp", "code": "DV1606"},
+          {"name": "Web Applications for Mobile Devices", "credits": "7.5 hp", "code": "DV1609"},
+          {"name": "Object-oriented Web Technology", "credits": "7.5 hp", "code": "DV1608"},
+          {"name": "Operating System Linux and Virtualization Techniques", "credits": "7.5 hp", "code": "DV1611"},
+          {"name": "JavaScript-based web frameworks", "credits": "7.5 hp", "code": "DV1677"},
+          {"name": "Software Development in Virtual Teams", "credits": "7.5 hp", "code": "DV1676"},
+          {"name": "Mathematical Modelling", "credits": "7.5 hp", "code": "MA1487"},
+          {"name": "Computer- and Telecommunication", "credits": "7.5 hp", "code": "ET1447"},
+          {"name": "Basic System Verification", "credits": "7.5 hp", "code": "PA1417"},
+          {"name": "Diploma project in Web Programming", "credits": "15 hp", "code": "PA1438"}
+        ]
+      },
+      {
+        "duration": "January 2021 – May 2021",
+        "institution": "Nils Fredriksson Utbildning, Svedala Kommun, Sweden",
+        "courses": [
+          {"name": "Svenska som andraspråk 1", "grade": "A"},
+          {"name": "Svenska som andraspråk 2", "grade": "A"},
+          {"name": "Svenska som andraspråk 3", "grade": "A"}
+        ]
+      },
+      {
+        "duration": "September 2019 – December 2020",
+        "institution": "Komvux Malmö, Malmö Stad, Sweden",
+        "courses": [
+          {"name": "Svenska för invandrare, kurs D", "grade": "A"},
+          {"name": "Svenska som andraspråk, nationell delkurs 1", "grade": "A"},
+          {"name": "Svenska som andraspråk, nationell delkurs 2", "grade": "B"},
+          {"name": "Svenska som andraspråk, nationell delkurs 3", "grade": "A"},
+          {"name": "Svenska som andraspråk, nationell delkurs 4", "grade": "A"}
+        ]
+      },
+      {
+        "duration": "October 2016 – January 2017",
+        "institution": "University of Gothenburg, Sweden",
+        "courses": [
+          {"name": "Geographical Information Systems (GIS) Introduction", "credits": "7.5 hp"},
+          {"name": "Geographical Information Systems 2", "credits": "7.5 hp"}
+        ]
+      },
+      {
+        "duration": "December 2015 - January 2016",
+        "institution": "Lund University, Lund, Skåne, Sweden",
+        "courses": [
+          {"name": "Globalisation and Culture", "credits": "7.5 hp"},
+          {"name": "Intellectual Property and Digital Information – Law, Politics, and Culture", "credits": "7.5 hp"}
+        ]
+      },
+      {
+        "duration": "September 2013 – June 2015",
+        "institution": "Lund University, Lund, Skåne, Sweden",
+        "qualification": "M.A. Applied Cultural Analysis",
+        "details": "Programme focusing on applying cultural analysis to workplaces using business analysis, ethnography, and corporate anthropology."
+      },
+      {
+        "duration": "October 2009 – July 2012",
+        "institution": "University of Wales Trinity Saint David, Lampeter, Ceredigion, United Kingdom",
+        "qualification": "BA (Hons.) Archaeology (2.i)",
+        "awards": ["E.R. Pritchard Prize for Archaeology, 2012"]
+      },
+      {
+        "duration": "September 2007 – July 2009",
+        "institution": "Richard Huish College, Taunton, Somerset, United Kingdom",
+        "qualifications": [
+          {"subject": "Mathematics", "level": "Advanced Level", "grade": "A"},
+          {"subject": "Archaeology", "level": "Advanced Level", "grade": "B"},
+          {"subject": "French", "level": "Advanced Level", "grade": "C"}
+        ]
+      },
+      {
+        "duration": "September 2002 – July 2007",
+        "institution": "Holyrood Community School, Chard, Somerset, United Kingdom",
+        "qualifications": [
+          {"subject": "French", "level": "GCSE", "grade": "A*"},
+          {"subject": "Science Double Award", "level": "GCSE", "grade": "AA"},
+          {"subject": "English Literature", "level": "GCSE", "grade": "A"},
+          {"subject": "Mathematics", "level": "GCSE", "grade": "A"}
+        ]
+      }
+    ],
+    "work": [
+      {
+        "duration": "May 2019 – Present",
+        "title": "Planning Specialist",
+        "employer": "Entry Point North AB, Malmö, Sweden",
+        "description": "Responsible for securing proactive planning and preparation of resources and assets for ATS training and services globally."
+      },
+      {
+        "duration": "January 2016 – April 2019",
+        "title": "Student Placements Officer",
+        "employer": "INTO University of Exeter, United Kingdom",
+        "description": "Supported international students in university applications and hosted workshops for their progression into higher education."
+      },
+      {
+        "duration": "August 2015 – November 2015",
+        "title": "MIS Administrator",
+        "employer": "Bridgwater College, Somerset, United Kingdom",
+        "description": "Assisted with data processing and student enrolments during the busy enrolment period."
+      },
+      {
+        "duration": "August 2014 – December 2014",
+        "title": "Intern and Cultural Analyst",
+        "employer": "LUX Faculties of the Humanities and Theology, Lund University, Sweden",
+        "description": "Worked as a cultural consultant to promote interdepartmental and interdisciplinary innovation."
+      },
+      {
+        "duration": "October 2012 – August 2013",
+        "title": "New Homes Office Administrator",
+        "employer": "Foot Anstey Solicitors, Somerset, United Kingdom",
+        "description": "Managed a caseload of new build purchases and remortgage matters in compliance with policies."
+      }
+    ]
+  }
+  
