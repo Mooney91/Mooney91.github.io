@@ -30,7 +30,7 @@ export default function Page() {
                 {/*!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}
                 <path d="M160 80c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 352c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-352zM0 272c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 160c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48L0 272zM368 96l32 0c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-288c0-26.5 21.5-48 48-48z"/>
             </svg>
-                <h3 className="text-2xl font-bold">Where's the logic?</h3>
+                <h3 className="text-2xl font-bold">Where&quot;s the logic?</h3>
                 <p>This project is in connection with my thesis project at BTH. This is a comparative study of the performance of business logic between the Data and Application Layers of a Three-Tier System.</p>
             </a>
         </div>
