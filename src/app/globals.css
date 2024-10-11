@@ -25,18 +25,18 @@ body {
   top: 0;
   width: 100%;
   background-color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust the shadow values as needed */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
 }
 
 h1 {
-  font-family: "Courier New", Courier, monospace; /* Tailwind's 'font-mono' */
-  font-size: 9rem; /* Tailwind's 'text-9xl' which equals 9rem (144px) */
+  font-family: "Courier New", Courier, monospace;
+  font-size: 9rem;
   font-weight: 600;
-  display: flex; /* Tailwind's 'flex' */
-  align-items: center; /* Tailwind's 'items-center' */
-  justify-content: center; /* Tailwind's 'justify-center' */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   line-height: 10rem;
 }
 
@@ -47,12 +47,11 @@ h2 {
 }
 
 .welcomeText {
-  font-family: "Courier New", Courier, monospace; /* Tailwind's 'font-mono' */
-  font-size: 1.25rem; /* Tailwind's 'text-xl' which equals 1.25rem (20px) */
-  display: flex; /* Tailwind's 'flex' */
-  /* margin-top: 1.25rem; Tailwind's 'mt-5' which equals 1.25rem (20px) */
-  align-items: center; /* Tailwind's 'items-center' */
-  justify-content: center; /* Tailwind's 'justify-center' */
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 700;
   text-align: center;
 
@@ -63,7 +62,6 @@ h2 {
   border-radius: 25px;
   padding: 10px;
   margin: 5px;
-  /* margin-right: 40px; */
   width:auto;
 }
 
@@ -72,7 +70,7 @@ h2 {
   position: fixed;
   bottom: 0;
   width: 100%;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Example for shadow-md */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,12 +84,12 @@ h2 {
 
 @media (max-width: 767px) {
   h1 {
-    font-family: "Courier New", Courier, monospace; /* Tailwind's 'font-mono' */
-    font-size: 5rem; /* Tailwind's 'text-9xl' which equals 9rem (144px) */
+    font-family: "Courier New", Courier, monospace;
+    font-size: 5rem;
     font-weight: 600;
-    display: flex; /* Tailwind's 'flex' */
-    align-items: center; /* Tailwind's 'items-center' */
-    justify-content: center; /* Tailwind's 'justify-center' */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     line-height: 6rem;
   }
 
@@ -106,12 +104,11 @@ h2 {
   }
 
   .welcomeText {
-    font-family: "Courier New", Courier, monospace; /* Tailwind's 'font-mono' */
-    font-size: 1.25rem; /* Tailwind's 'text-xl' which equals 1.25rem (20px) */
-    display: flex; /* Tailwind's 'flex' */
-    /* margin-top: 1.25rem; Tailwind's 'mt-5' which equals 1.25rem (20px) */
-    align-items: center; /* Tailwind's 'items-center' */
-    justify-content: center; /* Tailwind's 'justify-center' */
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
   }
 }
