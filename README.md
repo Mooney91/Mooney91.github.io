@@ -1,10 +1,7 @@
 ## Todo
 
-- Prettify it
-- Add a photo to the nav bar
 - Interesting home page with bubbles
 - Use more logic
-- Responsive (mobile)
 - Make CSS less clutted
 - Make CV components in lib
 - use own fonts
