@@ -7,6 +7,17 @@
 - use own fonts
 - Add pictures on CV
 
+## Versions
+
+### v1.0.0: First Version
+- Initial commits and content
+- Responsive for mobile
+
+### v1.0.01: Albatross
+- Tidied up a few pages for legibility
+
+## Next.js
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
