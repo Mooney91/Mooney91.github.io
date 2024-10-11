@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useState } from 'react';
 
 const links = [
   { name: 'Home', 
@@ -27,21 +28,54 @@ const links = [
 export default function NavLinks() {
   const pathname = usePathname();
 
+  // This is for the Hamburger
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen)
+  };
+
+
   return (
-    // <nav className="fixed top-0 w-full bg-white shadow-md flex justify-center">
-    <nav className="navbar">
-      <div className="flex justify-center md:justify-start space-x-4 p-4">
-        {links.map((link) => {
-            return (
+    <nav className="navbar fixed top-0 w-full bg-white shadow-md">
+      <div className="flex justify-between items-center p-4">
+        
+        {/* Hamburger Icon for mobile */}
+        <button className="block md:hidden focus:outline-none" onClick={toggleMenu}>
+          {/* Simple Hamburger Icon */}
+          <div className="space-y-2">
+            <span className="block w-8 h-0.5 bg-black"></span>
+            <span className="block w-8 h-0.5 bg-black"></span>
+            <span className="block w-8 h-0.5 bg-black"></span>
+          </div>
+        </button>
+
+        {/* Links - hidden on mobile */}
+        <div className="hidden md:flex space-x-4">
+          {links.map((link) => (
             <Link
-                key={link.name}
-                href={link.href}
-                className={pathname === link.href ? "bg-black text-white": "active"}
-                >
-                <p className="font-mono hidden md:block">|{link.name}|</p>
+              key={link.name}
+              href={link.href}
+              className={pathname === link.href ? 'bg-black text-white' : 'text-black'}
+            >
+              <p className="font-mono">|{link.name}|</p>
             </Link>
-            );
-        })}
+          ))}
+        </div>
+      </div>
+
+      {/* Mobile Menu - toggles when menuOpen is true */}
+      <div className={`md:hidden ${menuOpen ? 'block' : 'hidden'} bg-white p-4`}>
+        {links.map((link) => (
+          <Link
+            key={link.name}
+            href={link.href}
+            className={pathname === link.href ? 'bg-black text-white block my-2' : 'text-black block my-2'}
+            onClick={() => setMenuOpen(false)} // Close the menu on link click
+          >
+            <p className="font-mono">{link.name}</p>
+          </Link>
+        ))}
       </div>
     </nav>
   );
