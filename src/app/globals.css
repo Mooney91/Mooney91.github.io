@@ -14,11 +14,6 @@
   }
 }
 
-@media (max-width: 767px) {
-  
-}
-
-
 body {
   color: var(--foreground);
   background: var(--background);
@@ -35,10 +30,32 @@ body {
   justify-content: center;
 }
 
+h1 {
+  font-family: "Courier New", Courier, monospace; /* Tailwind's 'font-mono' */
+  font-size: 9rem; /* Tailwind's 'text-9xl' which equals 9rem (144px) */
+  font-weight: 600;
+  display: flex; /* Tailwind's 'flex' */
+  align-items: center; /* Tailwind's 'items-center' */
+  justify-content: center; /* Tailwind's 'justify-center' */
+  line-height: 10rem;
+}
+
 h2 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 60px;
   font-weight: 600;
+}
+
+.welcomeText {
+  font-family: "Courier New", Courier, monospace; /* Tailwind's 'font-mono' */
+  font-size: 1.25rem; /* Tailwind's 'text-xl' which equals 1.25rem (20px) */
+  display: flex; /* Tailwind's 'flex' */
+  /* margin-top: 1.25rem; Tailwind's 'mt-5' which equals 1.25rem (20px) */
+  align-items: center; /* Tailwind's 'items-center' */
+  justify-content: center; /* Tailwind's 'justify-center' */
+  font-weight: 700;
+  text-align: center;
+
 }
 
 .cvBox {
@@ -46,7 +63,7 @@ h2 {
   border-radius: 25px;
   padding: 10px;
   margin: 5px;
-  margin-right: 20px;
+  /* margin-right: 40px; */
   width:auto;
 }
 
@@ -64,5 +81,37 @@ h2 {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-family: "Courier New", Courier, monospace; /* Tailwind's 'font-mono' */
+    font-size: 5rem; /* Tailwind's 'text-9xl' which equals 9rem (144px) */
+    font-weight: 600;
+    display: flex; /* Tailwind's 'flex' */
+    align-items: center; /* Tailwind's 'items-center' */
+    justify-content: center; /* Tailwind's 'justify-center' */
+    line-height: 6rem;
+  }
+
+  h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    font-weight: 500;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  .welcomeText {
+    font-family: "Courier New", Courier, monospace; /* Tailwind's 'font-mono' */
+    font-size: 1.25rem; /* Tailwind's 'text-xl' which equals 1.25rem (20px) */
+    display: flex; /* Tailwind's 'flex' */
+    /* margin-top: 1.25rem; Tailwind's 'mt-5' which equals 1.25rem (20px) */
+    align-items: center; /* Tailwind's 'items-center' */
+    justify-content: center; /* Tailwind's 'justify-center' */
+    text-align: center;
   }
 }
