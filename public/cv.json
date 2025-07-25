@@ -1,6 +1,13 @@
 {
     "education": [
       {
+        "duration": "January 2025 – June 2025",
+        "institution": "Malmö University, Sweden",
+        "courses": [
+          {"name": "Programming in C#", "credits": "7.5 hp", "code": "DA204E"}
+        ]
+      },
+      {
         "duration": "August 2022 – June 2024",
         "institution": "Blekinge Tekniska Högskola, Sweden",
         "qualification": "Higher Education Diploma",
