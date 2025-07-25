@@ -13,7 +13,7 @@
 - Initial commits and content
 - Responsive for mobile
 
-### v1.0.01: Albatross
+### v1.0.1: Albatross
 - Tidied up a few pages for legibility
 
 ## Next.js
