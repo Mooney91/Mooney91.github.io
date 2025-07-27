@@ -4,7 +4,7 @@
         "duration": "January 2025 – June 2025",
         "institution": "Malmö University, Sweden",
         "courses": [
-          {"name": "Programming in C#", "credits": "7.5 hp", "code": "DA204E"}
+          {"name": "Programming in C#", "credits": "7.5 hp", "code": "DA204E", "project": "https://github.com/Mooney91/LibrarySuite"}
         ]
       },
       {
@@ -22,8 +22,8 @@
           {"name": "Web Applications for Mobile Devices", "credits": "7.5 hp", "code": "DV1609"},
           {"name": "Object-oriented Web Technology", "credits": "7.5 hp", "code": "DV1608"},
           {"name": "Operating System Linux and Virtualization Techniques", "credits": "7.5 hp", "code": "DV1611"},
-          {"name": "JavaScript-based web frameworks", "credits": "7.5 hp", "code": "DV1677"},
-          {"name": "Software Development in Virtual Teams", "credits": "7.5 hp", "code": "DV1676"},
+          {"name": "JavaScript-based web frameworks", "credits": "7.5 hp", "code": "DV1677", "project": "https://github.com/Mooney91/train-controller"},
+          {"name": "Software Development in Virtual Teams", "credits": "7.5 hp", "code": "DV1676", "project": "https://github.com/Mooney91/vteam6-HT23"},
           {"name": "Mathematical Modelling", "credits": "7.5 hp", "code": "MA1487"},
           {"name": "Computer- and Telecommunication", "credits": "7.5 hp", "code": "ET1447"},
           {"name": "Basic System Verification", "credits": "7.5 hp", "code": "PA1417"},
